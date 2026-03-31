@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.fooyin.fooyin.svg
 export DESKTOP=/usr/share/applications/org.fooyin.fooyin.desktop
+export DEPLOY_QT=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/fooyin
