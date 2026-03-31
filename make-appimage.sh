@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.fooyin.fooyin.svg
 export DESKTOP=/usr/share/applications/org.fooyin.fooyin.desktop
 export DEPLOY_QT=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/fooyin
